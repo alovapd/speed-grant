@@ -6,7 +6,9 @@ class ActionType extends Component {
         this.state = {  }
     }
     render() { 
-        return (  );
+        return ( 
+            <div>Action Type</div>
+         );
     }
 }
  
