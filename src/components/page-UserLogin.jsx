@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import InputBlock from './InputBlock.jsx';
+import ImportButton from './ImportButton.jsx';
 
 class UserLogin extends Component {
     constructor(props) {
@@ -15,7 +16,8 @@ class UserLogin extends Component {
                 <InputBlock title="Start Date" type="date" name="startDate" id="startDate"/>
                 <InputBlock title="Start Time" type="time" name="startTime" id="startTime"/>
                 <InputBlock title="End Time" type="time" name="endTime" id="endTime"/>
-            </div>
+                <ImportButton Title="GO"/>
+            </div>            
 				  );
     }
 }

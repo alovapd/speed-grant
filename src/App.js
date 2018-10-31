@@ -18,7 +18,7 @@ class App extends Component {
 
   _onButtonClick() {
     this.setState({
-      currentPage: (this.state.currentPage == 3) ? 1 : this.state.currentPage + 1,
+      currentPage: (this.state.currentPage = 3) ? 1 : this.state.currentPage + 1,
     });
   }
   

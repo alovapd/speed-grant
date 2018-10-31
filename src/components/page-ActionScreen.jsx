@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ImportButton from './ImportButton.jsx';
 
 class ActionScreen extends Component {
     constructor(props) {
@@ -7,7 +8,9 @@ class ActionScreen extends Component {
     }
     render() { 
         return ( 
-            <div>Action Screen</div>
+            <div>
+                <div>Action Page</div>
+            </div>
          );
     }
 }
