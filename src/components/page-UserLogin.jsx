@@ -6,10 +6,7 @@ class UserLogin extends Component {
         super(props);
         this.state = {  }
 		}
-		clicked() {
-			console.log('the go button was clicked');
 		
-		}
     render() { 
         return (
             <div>
@@ -18,7 +15,6 @@ class UserLogin extends Component {
                 <InputBlock title="Start Date" type="date" name="startDate" id="startDate"/>
                 <InputBlock title="Start Time" type="time" name="startTime" id="startTime"/>
                 <InputBlock title="End Time" type="time" name="endTime" id="endTime"/>
-                <button onClick={ this.clicked }>GO</button>
             </div>
 				  );
     }
