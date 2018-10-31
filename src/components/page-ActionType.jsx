@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import InputBlock from './InputBlock.jsx';
 
 class ActionType extends Component {
     constructor(props) {
